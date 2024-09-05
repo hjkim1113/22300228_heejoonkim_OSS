@@ -1,0 +1,105 @@
+input[box] {
+  border: 0.8px solid #dfdfdf;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+}
+
+select[box] {
+  border: 0.8px solid #dfdfdf;
+  border-radius: 6px;
+  padding: 6px 12px 6px 12px;
+}
+
+
+
+
+
+body {
+  margin: 0;
+  background-color: #fafafaef;
+}
+
+.container {
+  max-width: 960px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#top {
+  text-align: center;
+  padding: 48px 0 48px 0;
+}
+
+#top img {
+  width: 72px;
+  margin-bottom: 17px;
+}
+
+#top h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+#top p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.main_side, #main, #main h4, #sidebar, #sidebar h4 {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 28px;
+  float: left;
+  width: 640px;
+}
+
+#main h4 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#flname {
+  width: 305px;
+  padding-right: 8px;
+  float: left;
+  margin-bottom: 16px;
+}
+
+input[box="namebox"] {
+  width: 270px;
+  height: 25px;
+  margin-top: 8px;
+}
+
+#name {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  height: 25px;
+  border-radius: 6px;
+  border: 1px solid #00000000;
+}
+
+#name span {
+  padding: 6px 12px 6px 12px;
+  height: 24px;
+  border: 1px solid #00000000;
+}
+
+input[box="ubox"] {
+  height: 20px;
+  width: 500px;
+  border-radius: 0;
+}

@@ -1,0 +1,57 @@
+/* div.name {
+  color: blue;
+}
+
+header {
+  height: 100px;
+}
+
+ol {
+  color: rgb(255, 0, 0);
+}
+
+#in {
+  color: aqua;
+} */
+
+#test {
+  border: #000 solid 5px ;
+  font-weight: 400;
+  background-color: rgba(30, 200, 30, 0.5);
+}
+
+#test1 {
+  border: #000 dotted 5px ;
+  font-weight: 400;
+  background-color: rgba(30, 200, 30, 0.5);
+}
+
+#test2 {
+  position: absolute;
+  border: #000 solid 5px ;
+  background-color: rgba(30, 200, 30, 0.5);
+  font-size: 30px;
+  font-weight: 900;
+  width: 50vmax;
+  padding: 30px;
+}
+
+#test3 {
+  border: #000 solid 5px ;
+  font-weight: 400;
+  background-color: rgba(30, 200, 30, 0.5);
+  width: 50vmin;
+}
+
+#test4 {
+  border: #000 solid 5px ;
+  font-weight: 400;
+  background-color: rgba(30, 200, 30, 0.5);
+}
+
+
+/* **padding: 담벼락 안의 공간 */
+/* **margin: 담벼락 밖 공간 + 위치 : T R B L */
+/* border: 요소 자신의 공간 */
+/* vw: 비율 */
+
