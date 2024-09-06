@@ -19,130 +19,135 @@
 
       <div id="main">
         <h4>Billing address</h4>
-        <div id="input_box">
-          <div id="flname">
-            <label for="firstname">First name</label>
-            <input type="text" id="firstname" box="namebox">
-          </div>
-          <div id="flname">
-            <label for="lastname">Last name</label>
-            <input type="text" id="lastname" box="namebox">
-          </div>
+        <form action="#">
+          <div id="input_box">
+            <div id="fname">
+              <label for="firstname">First name</label>
+              <input type="text" id="firstname" box="namebox">
+            </div>
+            <div id="lname">
+              <label for="lastname">Last name</label>
+              <input type="text" id="lastname" box="namebox">
+            </div>
 
 
 
-          <div id="uname">
-            <label for="username">Username</label>
-            <div id="name">
-              <span id="golb">@</span>
-              <input type="text" name="lnbox" placeholder="Username" box="ubox" id="username">
+            <div id="uname">
+              <label for="username">Username</label>
+              <div id="name">
+                <span id="golb">@</span>
+                <input type="text" name="lnbox" placeholder="Username" box="ubox" id="username">
+              </div>
+            </div>
+
+
+
+            <div id="email">
+              <label for="email">
+                Email
+                <span opt="opt">(Optional)</span>
+              </label>
+              <input type="email" placeholder="you@example.com" box="addbox" id="email">
+            </div>
+            <div id="add">
+              <label for="address">Address</label>
+              <input type="text" placeholder="1234 Main St" box="addbox" id="address">
+            </div>
+            <div id="add2">
+              <label for="address2" id="address2">
+                Address 2
+                <span opt="opt2">(Optional)</span>
+              </label>
+              <input type="text" placeholder="Apartment or suite" box="addbox" id="address2">
+            </div>
+
+
+
+            <div id="country">
+              <label for="count">Country</label>
+              <select name="coun" box="csbox" id="count">
+                <option value="base">Choose...</option>
+                <option>United States</option>
+              </select>
+            </div>
+
+
+
+            <div id="state">
+              <label for="sta">State</label>
+              <select name="sta" box="ssbox" id="sta">
+                <option value="base">Choose...</option>
+                <option>California</option>
+              </select>
+            </div>
+
+
+
+            <div id="zip">
+              <label for="zi">Zip</label>
+              <input type="text" id="zi" box="zipi">
             </div>
           </div>
 
+          <hr line="line1">
 
+          <div id="check1">
+            <input type="checkbox" id="shipping" check="check1">
+            <label for="shipping">Shipping address is the same as my billing address</label>
+          </div>
 
-          <div id="email">
-            <label for="email">
-              Email
-              <span opt="opt">(Optional)</span>
-            </label>
-            <input type="email" placeholder="you@example.com" box="addbox" id="email">
-          </div>
-          <div id="add">
-            <label for="address">Address</label>
-            <input type="text" placeholder="1234 Main St" box="addbox" id="address">
-          </div>
-          <div id="add2">
-            <label for="address2" id="address2">
-              Address 2
-              <span opt="opt2">(Optional)</span>
-            </label>
-            <input type="text" placeholder="Apartment or suite" box="addbox" id="address2">
+          <div id="check2">
+            <input type="checkbox" id="save" check="check2">
+            <label for="save">Save this information for next time</label>
           </div>
 
 
+          <hr line="line2">
 
-          <div id="country">
-            <label for="count">Country</label>
-            <select name="coun" box="csbox" id="count">
-              <option value="base">Choose...</option>
-              <option>United States</option>
-            </select>
+          <h4>Payment</h4>
+          <div id="rad">
+            <div id="paym">
+              <input type="radio" name="pay" id="credit" radio="radio1">
+              <label for="credit">Credit card</label>
+            </div>
+            <div id="paym">
+              <input type="radio" name="pay" id="debit" radio="radio2">
+              <label for="debit">Debit card</label>
+            </div>
+            <div id="paym">
+              <input type="radio" name="pay" id="pal" radio="radio3">
+              <label for="pal">PayPal</label>
+            </div>
           </div>
 
+          <div id="cardim">
+            <div id="cname">
+              <label for="noc">Name on card</label>
+              <input type="text" id="noc" box="aftbox1">
+              <small>Full name as displayed on card</small>
+            </div>
 
+            <div id="crcn">
+              <label for="ccn">Credit card number</label>
+              <input type="text" id="ccn" box="aftbox1">
+            </div>
 
-          <div id="state">
-            <label for="sta">State</label>
-            <select name="sta" box="ssbox" id="sta">
-              <option value="base">Choose...</option>
-              <option>California</option>
-            </select>
+            <div id="exp">
+              <label for="ex">Expiration</label>
+              <input type="text" id="ex" box="aftbox2">
+            </div>
+
+            <div id="cv">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" box="aftbox2">
+            </div>
+
           </div>
 
+          <hr line="line3">
 
-
-          <div id="zip">
-            <label for="zi">Zip</label>
-            <input type="text" id="zi" box="zipi">
-          </div>
-        </div>
-
-        <hr line="line1">
-
-        <div id="check1">
-          <input type="checkbox" id="shipping" check="check1">
-          <label for="shipping">Shipping address is the same as my billing address</label>
-        </div>
-
-        <div id="check2">
-          <input type="checkbox" id="save" check="check2">
-          <label for="save">Save this information for next time</label>
-        </div>
-
-
-        <hr line="line2">
-
-        <h4>Payment</h4>
-        <div id="paym">
-          <input type="radio" name="pay" id="credit" radio="radio1">
-          <label for="credit">Credit card</label>
-        </div>
-        <div id="paym">
-          <input type="radio" name="pay" id="debit" radio="radio2">
-          <label for="debit">Debit card</label>
-        </div>
-        <div id="paym">
-          <input type="radio" name="pay" id="pal" radio="radio3">
-          <label for="pal">PayPal</label>
-        </div>
-
-        <div id="cardim">
-          <div id="cname">
-            <label for="noc">Name on card</label>
-            <input type="text" id="noc" box="aftbox1">
-            <small>Full name as displayed on card</small>
-          </div>
-
-          <div>
-            <label for="ccn">Credit card number</label>
-            <input type="text" id="ccn" box="aftbox1">
-          </div>
-
-          <div>
-            <label for="ex">Expiration</label>
-            <input type="text" id="ex" box="aftbox2">
-          </div>
-
-          <div>
-            <label for="cvv">CVV</label>
-            <input type="text" id="cvv" box="aftbox2">
-          </div>
-        </div>
-
-        <hr line="line3">
-
-        <button id="mainBTN">Continue to checkout</button>
+          <button id="mainBTN">Continue to checkout</button>
+        </form>
       </div>
 
 
@@ -218,7 +223,7 @@
 
     <div id="footer">
       <p>© 2017-2024 Company Name</p>
-      <ul>
+      <ul class="foot">
         <li>
           <a href="#">Privacy</a>
         </li>
