@@ -73,6 +73,7 @@ body {
 
 #main {
   padding-left: 12px;
+  margin-right: 5px;
   float: left;
   max-width: 650px;
   width: 100vw;
@@ -110,7 +111,7 @@ input[box="namebox"] {
   margin-top: 8px;
   margin-bottom: 16px;
   height: 38px;
-  max-width: 606px;
+  max-width: 604px;
   border-radius: 6px;
   border: 0.8px solid #dfdfdf;
   background-color: white;
@@ -125,6 +126,7 @@ input[box="namebox"] {
 }
 
 input[box="ubox"] {
+  width: 89%;
   max-width: 541px;
   border-radius: 0;
   border: white;
@@ -229,14 +231,94 @@ input[box="aftbox2"] {
 }
 
 
+#sidebar {
+  padding-right: 12px;
+  display: flow-root;
+}
 
+#sidename {
+  color: #5367ff;
+  font-size: 24px;
+  font-weight: 450;
+}
 
+#sidenum {
+  float: right;
+  color: white;
+  background-color: #5367ff;
+  padding: 6px 11px 6px 11px;
+  border-radius: 15px;
+}
 
+.cartin {
+  list-style-type: none;
+  padding-left: 0;
+  border: 0.8px solid #dfdfdf;
+  border-radius: 8px;
+  background-color: white;
+}
 
+#cart li {
+  width: calc(100% - 33.6);
+  border-bottom: 0.8px solid #dfdfdf;
+  padding: 8px 16px 8px 16px;
+  display: flow-root;
+}
 
+#cart li div {
+  float: left;
+}
 
+#cart li h6 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
 
+#cart li span {
+  float: right;
+  color: rgb(126, 126, 126);
+}
 
+#cart li:nth-child(5) > h6 {
+  float: left;
+}
+
+#cart li:nth-child(4), #plec, #cart li:nth-child(4) > span {
+  color: green;
+}
+
+#sidebarbutton {
+  border: 1px solid #cecece;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#sidebarbut {
+  border: 0.8px solid #dfdfdf;
+  border-radius: 8px;
+  z-index: 3;
+}
+
+#sidebarbut input {
+  border-radius: 8px;
+  border: 0;
+  margin: 0;
+  padding: 12px;
+  font-size: 16px;
+  max-width: 150px;
+  width: 80%;
+}
+
+#sidebarbut button {
+  margin: 0;
+  background-color: rgb(103, 103, 103);
+  color: white;
+  height: 43px;
+  width: 81px;
+  border-radius: 0 8px 8px 0;
+}
 
 
 
