@@ -24,17 +24,13 @@ select[box] {
   font-size: 15px;
 }
 
-
-
-
-
 body {
   margin: 0;
   background-color: #f8f8f8ef;
 }
 
 .container {
-  max-width: 960px; /*960px*/
+  max-width: 960px;
   position: relative;
   margin: 0 auto;
   padding-left: 12px;
