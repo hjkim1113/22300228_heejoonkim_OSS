@@ -1,10 +1,23 @@
-console.log("안녕하세요")
+"use strict";
 
-const btn = document.querySelector("button");
+console.log("안녕하세요");
+
 const iner = document.querySelector("#in");
+const fnum = document.querySelector("#fnum");
+const snum = document.querySelector("#snum");
+const reas = document.querySelector("#reas");
 
-btn.addEventListener('click', act);
+const btn1 = document.querySelector(".b1");
+const btn2 = document.querySelector(".b2");
 
-function act(){
-  iner.textContent = "버튼을 눌렀습니다";
-}
+btn1.addEventListener('click', () => {
+  if(iner.hasAttribute("style")){
+    iner.removeAttribute("style")
+  } else {
+    iner.setAttribute("style","display:none");
+  }
+});
+
+btn2.addEventListener('click', () => {
+  reas.value = Number(fnum.value) + Number(snum.value);
+});
